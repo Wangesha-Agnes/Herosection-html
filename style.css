@@ -1,9 +1,42 @@
-#mytopnav{
+.landingpage{
     display: flex;
     gap: 10%;
+
 }
-#container{
-  background-color: lightskyblue;
+#nav{
+    display: flex;
+
+}
+#superhero{
+    color: rgb(226, 12, 58);
+}
+
+#hero{
+    color: rgb(223, 67, 67);
+    margin-right: 2%;
+}
+#imagehero{
+   width: 800px; 
+}
+
+#landing{
+    font-size: 80px;
+}
+#navbar{
+    display: flex;
+    gap: 20%;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+#subscription{
+    display: flex;
+    gap: 20%;
+}
+/* #container{
+    background-color: rgba(247, 242, 235, 0.068);
+} */
+#home{
+    color: red;
 }
 #microsoft{
     width: 70px;
@@ -11,8 +44,7 @@
 }
 #footer{
     display: flex;
-    gap: 10%;
-    background-color: azure;
+    gap: 17%;
 }
 #microsoft1{
     display: flex;
@@ -31,8 +63,36 @@
 #slack1{
     display: flex;
 }
-button{
-    color: red;
+#login{
+    color: white;
+    background-color: rgb(211, 17, 82);
+    border-radius: 25px;
+    padding: 20px 23px;
+    text-align: center;
+    display: inline-block;
+}
+#joinnow{
+    color:rgb(211, 17, 82);
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;}
+
+#explore{
+    color: white;
+    background-color: rgb(211, 17, 82);
+    border-radius: 25px;
+    padding: 20px 23px;
+    text-align: center;
+    display: inline-block;
+    margin-left: -12%;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 17px;
 }
 
 @media screen and (max-width:375px) and (min-width:667px){
@@ -41,13 +101,15 @@ button{
     flex-wrap: wrap;
     }
     #footer{
-        display: flex;
+        display: block;
        flex-wrap: wrap;
     } 
+   
 }
 @media screen and (max-width:414px) and (min-width:896px){
     #footer{
-        display: grid;
+        display: block;
+        flex-wrap: wrap;
     }
 }
 @media screen and (max-width:768px) and (min-width:1024px){
@@ -58,7 +120,7 @@ button{
 }
 @media screen and (max-width:1024px) and (min-width:600px){
     #footer{
-        display: grid;
+        display: block;
         flex-wrap: wrap;
         
     }
