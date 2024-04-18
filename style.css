@@ -4,7 +4,19 @@
 }
 .nav{
     display: flex;
-
+}
+.icon,
+h5 {
+    color: rgb(206, 30, 153);
+}
+.links a:hover,
+.icon:hover {
+    background-color: rgb(102, 206, 102);
+    color: white;
+    transition: 0.4s all linear;
+}
+#logo{
+    width: 18px;
 }
 #superhero{
     color: rgb(226, 12, 58);
