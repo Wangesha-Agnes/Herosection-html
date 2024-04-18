@@ -1,9 +1,8 @@
 .landingpage{
     display: flex;
-    gap: 10%;
-
+    gap: 20%;
 }
-#nav{
+.nav{
     display: flex;
 
 }
@@ -22,19 +21,17 @@
 #landing{
     font-size: 80px;
 }
-#navbar{
+.navbar{
     display: flex;
     gap: 20%;
     margin-left: 20%;
     margin-top: 6%;
 }
-#subscription{
+.subscription{
     display: flex;
     gap: 20%;
 }
-/* #container{
-    background-color: rgba(247, 242, 235, 0.068);
-} */
+
 #home{
     color: red;
 }
@@ -42,7 +39,7 @@
     width: 70px;
     height: 50px;
 }
-#footer{
+.footer{
     display: flex;
     gap: 17%;
 }
@@ -96,32 +93,151 @@ input{
 }
 
 @media screen and (max-width:375px) and (min-width:667px){
-    #mytopnav{ 
-    display: block;
-    flex-wrap: wrap;
-    }
-    #footer{
-        display: block;
+    .footer{
        flex-wrap: wrap;
-    } 
-   
-}
-@media screen and (max-width:414px) and (min-width:896px){
-    #footer{
+       display: grid;
+    }
+    .landingpage{
+        display: block;
+    
+        gap: 10%;
+    
+    }
+    .navbar{
         display: block;
         flex-wrap: wrap;
+
+        gap: 1%;
+       
+    }
+    .nav{
+        display: block;
+    
+    }
+    .landingpage{
+        display: block;
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+    #imagehero{
+        width: 80px; 
+     }
+
+   
+}
+@media screen and (max-width:914px) and (min-width:412px){
+    .footer{
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .landingpage{
+        display: block;
+    
+        gap: 10%;
+    
+    }
+    .navbar{
+        display: block;
+        flex-wrap: wrap;
+
+        gap: 1%;
+       
+    }
+    .nav{
+        display: block;
+    
+    }
+    .landingpage{
+        display: block;
+        flex-wrap: wrap;
+        gap: 2%;
+    }  
+}
+@media screen and (max-width:414px) and (min-width:896px){
+    .footer{
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .landingpage{
+        display: block;
+    
+        gap: 10%;
+    
+    }
+    .navbar{
+        display: block;
+        flex-wrap: wrap;
+
+        gap: 1%;
+       
+    }
+    .nav{
+        display: block;
+    
+    }
+    .landingpage{
+        display: block;
+        flex-wrap: wrap;
+        gap: 2%;
     }
 }
 @media screen and (max-width:768px) and (min-width:1024px){
-    #footer{
+    .footer{
         display: block;
         flex-wrap: wrap;
     }
+    .landingpage{
+        display: block;
+    
+        gap: 10%;
+    
+    }
+    .navbar{
+        display: block;
+        flex-wrap: wrap;
+        gap: 1%;
+       
+    }
+    .nav{
+        display: block;
+    
+    }
+    .landingpage{
+        display: block;
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+
 }
 @media screen and (max-width:1024px) and (min-width:600px){
-    #footer{
+    .footer{
         display: block;
         flex-wrap: wrap;
         
     }
+    .landingpage{
+        display: block;
+    
+        gap: 10%;
+    
+    }
+    .navbar{
+        display: block;
+        flex-wrap: wrap;
+
+        gap: 1%;
+       
+    }
+    .nav{
+        display: block;
+    
+    }
+    .landingpage{
+        display: block;
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+
 }
