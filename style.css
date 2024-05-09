@@ -1,11 +1,17 @@
 .landingpage{
     display: flex;
     gap: 20%;
+    margin-left: 3%;
 }
 .nav{
     display: flex;
+    margin-left: 3%;
 }
-.icon,
+#logo{
+    width: 5%;
+    height: 10%;
+}
+/* .icon,
 h5 {
     color: rgb(206, 30, 153);
 }
@@ -17,7 +23,7 @@ h5 {
 }
 #logo{
     width: 18px;
-}
+} */
 #superhero{
     color: rgb(226, 12, 58);
 }
@@ -27,7 +33,7 @@ h5 {
     margin-right: 2%;
 }
 #imagehero{
-   width: 800px; 
+   width: 700px; 
 }
 
 #landing{
@@ -35,8 +41,8 @@ h5 {
 }
 .navbar{
     display: flex;
-    gap: 20%;
-    margin-left: 20%;
+    gap: 80%;
+    margin-left: 25%;
     margin-top: 6%;
 }
 .subscription{
@@ -54,6 +60,7 @@ h5 {
 .footer{
     display: flex;
     gap: 17%;
+    margin-left: 5%;
 }
 #microsoft1{
     display: flex;
@@ -103,8 +110,11 @@ input{
     border-radius: 25px;
     font-size: 17px;
 }
+#strength{
+    font-size: 24px;
+}
 
-@media screen and (max-width:375px) and (min-width:667px){
+@media screen and (min-width:375px) and (max-width:667px){
     .footer{
        flex-wrap: wrap;
        display: grid;
@@ -134,10 +144,13 @@ input{
     #imagehero{
         width: 80px; 
      }
+     #landing{
+        font-size: 10px;
+    }
 
    
 }
-@media screen and (max-width:914px) and (min-width:412px){
+@media screen and (min-width:700px) and (max-width:900px){
     .footer{
         display: block;
         flex-wrap: wrap;
@@ -164,9 +177,12 @@ input{
         display: block;
         flex-wrap: wrap;
         gap: 2%;
+    }
+    #landing{
+        font-size: 10px;
     }  
 }
-@media screen and (max-width:414px) and (min-width:896px){
+@media screen and (min-width:900px) and (max-width:1100px){
     .footer{
         display: block;
         flex-wrap: wrap;
@@ -194,8 +210,11 @@ input{
         flex-wrap: wrap;
         gap: 2%;
     }
+    #landing{
+        font-size: 10px;
+    }
 }
-@media screen and (max-width:768px) and (min-width:1024px){
+@media screen and (min-width:1200px) and (max-width:1400px){
     .footer{
         display: block;
         flex-wrap: wrap;
@@ -221,9 +240,12 @@ input{
         flex-wrap: wrap;
         gap: 2%;
     }
+    #landing{
+        font-size: 10px;
+    }
 
 }
-@media screen and (max-width:1024px) and (min-width:600px){
+@media screen and (min-width:600px) and (max-width:1000px){
     .footer{
         display: block;
         flex-wrap: wrap;
@@ -250,6 +272,9 @@ input{
         display: block;
         flex-wrap: wrap;
         gap: 2%;
+    }
+    #landing{
+        font-size: 10px;
     }
 
 }
